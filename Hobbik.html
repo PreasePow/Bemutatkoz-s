@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bemutatkozás</title>
+    <style>
+        body {
+            background: #000;
+            color: #fff;
+            font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
+        }
+        a {
+            color: #fff;
+            text-decoration: underline;
+        }
+        .space-after-list {
+            height: 200px;
+        }
+        .section-space {
+            height: 200px;
+        }
+        .hobbi-kep, .raguleves-kep, .konyv-kep {
+            margin-bottom: 20px;
+        }
+        /* Félkövér listaelemek eleje */
+        .bold-label {
+            font-weight: bold;
+        }
+        /* Félkövér szekciócímek */
+        h1, h2 {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bemutatkozás</h1>
+    <ul>
+        <li><span class="bold-label">Név</span>: Kovács Martin</li>  
+        <li><span class="bold-label">Kor</span>: 19</li> 
+        <li><span class="bold-label">Iskola</span>: School of Business</li> 
+        <li><span class="bold-label">Érdeklődési körök</span>: videojátékok, zene, művészetek</li> 
+        <li>
+            <a href="#Konyv"><span class="bold-label">Kedvenc könyv</span>: Minél véresebb</a>
+        </li>
+        <li>
+            <a href="#Raguleves"><span class="bold-label">Kedvenc étel</span>: Raguleves</a>
+        </li>
+        <li>
+            <a href="#Hobbijaim"><span class="bold-label">Hobbi</span>: rajzolás és festés, gaming</a>
+        </li>
+        <li><span class="bold-label">Célok</span>: Sikeresnek lenni</li> 
+    </ul>
+
+    <div class="space-after-list"></div>
+
+    <h2 id="Konyv">Kedvenc könyv: Minél véresebb</h2>
+    <img src="minél.webp" alt="Minél véresebb" width="300" class="konyv-kep">
+    <p>
+        A "Minél véresebb" a kedvenc könyvem, mert izgalmas történetet mesél el, tele fordulatokkal és mély karakterekkel. Mindig leköt, amikor olvasom.
+    </p>
+
+    <div class="section-space"></div>
+
+    <h2 id="Raguleves">Kedvenc étel: Raguleves</h2>
+    <img src="ragu.webp" alt="Raguleves" width="400" class="raguleves-kep">
+    <p>
+        A raguleves az egyik kedvenc ételem, mert laktató, ízletes és sokféleképpen elkészíthető. Gyakran készítem családi összejöveteleken is.
+    </p>
+
+    <div class="section-space"></div>
+
+    <h2 id="Hobbijaim">Hobbijaim</h2>
+    <img src="headphones-for-gamers.webp" alt="Hobbijaim" width="400" class="hobbi-kep">
+    <p class="hobbi-leiras">
+        A rajzolás és festés számomra kikapcsolódás, ahol szabadon engedhetem a kreativitásomat. Emellett szívesen játszom videojátékokkal is, amelyek inspirálnak az alkotásban.
+    </p>
+    <img src="2.webp" alt="Hobbi" width="400" class="hobbi-kep">
+</body>
+</html>
